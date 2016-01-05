@@ -1,0 +1,33 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/buttoneasy"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/LevelPopEasy"
+             android:background="@drawable/b_assist"/>
+
+        <Button
+            android:id="@+id/buttonmedium"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttoneasy"
+            android:text="@string/LevelPopMedium" 
+            android:width="150dp" android:background="@drawable/b_assist"/>
+
+        <Button
+            android:id="@+id/buttonhard"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonmedium"
+            android:text="@string/LevelPopHard"
+             android:width="150dp" android:background="@drawable/b_assist"/>
+
+    </RelativeLayout>

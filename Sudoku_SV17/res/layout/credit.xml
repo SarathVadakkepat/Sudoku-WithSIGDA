@@ -1,0 +1,51 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="@drawable/bg_credit">
+
+        <Button
+            android:id="@+id/sv1"
+            android:layout_width="166dp"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/b_sarath" />
+
+        <Button
+            android:id="@+id/sv2"
+            android:layout_width="166dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/sv1"
+            android:layout_below="@+id/sv1"
+            android:background="@drawable/b_sujith"/>
+
+        <Button
+            android:id="@+id/vs1"
+            android:layout_width="166dp"
+                android:layout_height="98dp"
+            android:layout_alignLeft="@+id/sv2"
+            android:layout_below="@+id/sv2"
+            android:layout_marginTop="62dp"
+            android:height="98dp" android:maxHeight="98dp" android:maxWidth="166dp" android:width="166dp" android:background="@drawable/b_vigneshwar"/>
+
+<Button
+    android:id="@+id/b_back"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/b_back" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/vs1"
+    android:layout_below="@+id/vs1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="11dp"
+    android:text="(C) All Rights Reserved." />
+
+    </RelativeLayout>

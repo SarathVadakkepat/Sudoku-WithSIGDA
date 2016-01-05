@@ -1,0 +1,104 @@
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/num1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard1" />
+
+                <Button
+                    android:id="@+id/num2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard2" />
+
+                <Button
+                    android:id="@+id/num3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard3" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/num4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard4" />
+
+                <Button
+                    android:id="@+id/num5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard5" />
+
+                <Button
+                    android:id="@+id/num6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/num7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard7" />
+
+                <Button
+                    android:id="@+id/num8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard8" />
+
+                <Button
+                    android:id="@+id/num9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard9" />
+            </TableRow>
+
+           <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/numback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                   />
+
+                <Button
+                    android:id="@+id/num0"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/numBoard0" 
+                    />
+
+                <Button
+                    android:id="@+id/numback1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp" />
+
+            </TableRow>
+        </TableLayout>
+
+

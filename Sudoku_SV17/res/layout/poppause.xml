@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="-42dp"
+            android:src="@drawable/b_table_pop" />
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="160dp"
+            android:layout_height="49dp"
+            android:layout_x="69dp"
+            android:layout_y="328dp"
+            android:background="@drawable/b_assist"
+            android:text="Resume" />
+
+    </AbsoluteLayout>    

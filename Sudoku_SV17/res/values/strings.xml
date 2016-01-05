@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string name="hello">Hello World, Sudoku_SV17Activity!</string>
+    <string name="app_name">Sudoku</string>
+ <string name="default_zero"> </string>
+ <string name="click_to_solve">Solve</string>
+ <string name="Done_Solving">Solved....</string>
+ <string name="reset">Reset</string>
+ <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+   
+ <string name="numBoard0">0</string>
+ <string name="numBoard1">1</string>
+ <string name="numBoard2">2</string>
+ <string name="numBoard3">3</string>
+ <string name="numBoard4">4</string>
+ <string name="numBoard5">5</string>
+ <string name="numBoard6">6</string>
+ <string name="numBoard7">7</string>
+ <string name="numBoard8">8</string>
+ <string name="numBoard9">9</string>
+ <string name="numBoardDismiss">X</string>
+ 
+ <string name="LevelPopEasy">Easy</string>
+ <string name="LevelPopMedium">Medium</string>
+ <string name="LevelPopHard">Hard</string>
+ 
+ 
+
+</resources>
